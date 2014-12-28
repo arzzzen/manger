@@ -1,0 +1,20 @@
+{
+  "name": "manager",
+  "version": "0.0.0",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "ember": "latest",
+    "bootstrap-sass-official": "latest"
+  }
+}
