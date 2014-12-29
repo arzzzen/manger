@@ -14,7 +14,7 @@ $ touch .bowerrc
 ```
 # .bowerrc
 {
-	"directory": "public/bower_components"
+	"directory": "vendor/assets/bower_components"
 }
 ```
 Пропишем зависимости проекта:
@@ -31,6 +31,20 @@ $ touch .bowerrc
 
 ```
 $ bower i
+```
+
+```
+# config/application.rb
+...
+  config.assets.paths << Rails.root.join("vendor","assets","bower_components")
+...
+```
+
+```
+# app/assets/stylesheets/application.css.scss
+...
+  @import "bootstrap-sass-official/assets/stylesheets/_bootstrap";
+...
 ```
 
 ### Grunt
