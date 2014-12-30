@@ -12,4 +12,5 @@
 
  - [01. Начало](docs/01begining.md)
  - [02. Тестирование](docs/02tests.md)
- - [03. Новости](docs/03news.md)
+ - [03. Статические страницы](docs/03static_pages.md)
+ - [07. Новости](docs/07news.md)
