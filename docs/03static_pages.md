@@ -5,10 +5,6 @@ $ rails generate controller StaticPages home help --no-test-framework # испо
 $ rails generate integration_test static_pages
 ```
 
-Добавление Capybara
 ```
-# spec/spec_helper.rb
-...
-  config.include Capybara::DSL
-end
+$ rspec spec/
 ```

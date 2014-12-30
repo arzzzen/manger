@@ -1,12 +1,11 @@
 require 'spec_helper'
 
 describe "Static pages" do
+	subject { page }
 
-  describe "Home page" do
+	describe "Home page" do
+		before { visit home_path }
 
-    it "should have the content 'Nizrp manager'" do
-      visit '/static_pages/home'
-      expect(page).to have_content('Nizrp manager')
-    end
-  end
+		it { should have_content('Nizrp manager') }
+	end
 end

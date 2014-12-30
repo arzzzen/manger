@@ -20,3 +20,14 @@ $ bundle install --without production
 $ bundle update
 $ rails generate rspec:install # сконфигурировать Rails для использования RSpec вместо Test::Unit
 ```
+
+Добавление Capybara
+```
+# spec/spec_helper.rb
+...
+  config.include Capybara::DSL
+end
+```
+
+> TODO
+> [Автоматизировать тесты с Guard и Spork](http://railstutorial.ru/chapters/4_0/static-pages#sec-guard)
