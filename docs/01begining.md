@@ -1,7 +1,7 @@
 ## Начало
 ### Ruby on Rails
 ```
-$ rails new manager
+$ rails new manager --skip-test-unit # не генерировать папку test
 $ cd manager
 $ bin/rails server # проверка
 ```
