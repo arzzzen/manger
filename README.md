@@ -13,4 +13,5 @@
  - [01. Начало](docs/01begining.md)
  - [02. Тестирование](docs/02tests.md)
  - [03. Статические страницы](docs/03static_pages.md)
+ - [04. Пользователи](docs/04users.md)
  - [07. Новости](docs/07news.md)
